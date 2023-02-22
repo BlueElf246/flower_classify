@@ -1,0 +1,9 @@
+params_hog = {}
+params_hog['color_space'] = 'RGB'  # Can be RGB, HSV, LUV, HLS, YUV, YCrCb
+params_hog['orient'] = 9  # HOG orientations
+params_hog['pix_per_cell'] = 4  # HOG pixels per cell
+params_hog['cell_per_block'] = 4  # HOG cells per block
+params_hog['size_of_window']=(64,64,3)
+params_hog['test_size']=0.2
+params_hog['vis']=False
+params_hog['feature_vector']=True
